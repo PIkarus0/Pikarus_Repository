@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.pikarus" name="PIkarus REPO" version="1.0.0" provider-name="PIkarus">
     <extension point="xbmc.addon.repository" name="Repository PIkarus">
-        <info compressed="false">https://raw.githubusercontent.com/PIkarus0/Song365/master/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/PIkarus0/Song365/master/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/PIkarus0/Song365/master/zips/</datadir>
+        <info compressed="false">https://raw.githubusercontent.com/PIkarus0/Pikarus_Repository/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/PIkarus0/Pikarus_Repository/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/PIkarus0/Pikarus_Repository/master/zips/</datadir>
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/PIkarus0/Song365/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/PIkarus0/Song365/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/PIkarus0/Song365/master/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/PIkarus0/Pikarus_Repository/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/PIkarus0/Pikarus_Repository/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/PIkarus0/Pikarus_Repository/master/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -15,6 +15,6 @@
         <description>Install addons by PIkarus</description>
         <platform>all</platform>
         <language></language>
-        <website>https://pikarus0.github.io/Song365/</website>
+        <website>https://pikarus0.github.io/Pikarus_Repository/</website>
     </extension>
 </addon>
