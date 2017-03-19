@@ -24,7 +24,11 @@
 - Populäre Alben
 - Populäre Titel
 	</description>
+<<<<<<< HEAD
 	<website>https://pikarus0.github.io/Song365/</website>
+=======
+	<website>https://pikarus0.github.io/song365/</website>
+>>>>>>> origin/master
     </extension>
 </addon>
 </addons>
