@@ -1,30 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.song365" name="Song365" version="1.0.13c" provider-name="PIkarus">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.xbmcswift2" version="2.4.0"/>
-        <import addon="script.module.requests" version="1.1.0"/>
-        <import addon="script.module.mutagen"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <language></language>
-        <summary>ermoeglicht den Zugriff auf Song365.cc</summary>
-        <description>Zugriff auf tausende von MP3 Dateien
-- Suche nach Kuenstler
-- Suche nach Album
-- Suche nach Titel in Album
-- Suche nach Titel
-- Kuenstler von A-Z
-- Populaere Kuenstler
-- Populaere Alben
-- Populaere Titel
-	</description>
-	<website>https://pikarus0.github.io/Song365/</website>
-    </extension>
-</addon>
+    <addon id="plugin.audio.song365" name="Song365" version="1.0.13c" provider-name="PIkarus">
+        <requires>
+            <import addon="xbmc.python" version="2.1.0"/>
+            <import addon="script.module.xbmcswift2" version="2.4.0"/>
+            <import addon="script.module.requests" version="1.1.0"/>
+            <import addon="script.module.mutagen"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>audio</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <language></language>
+            <summary lang="de">ermöglicht den Zugriff auf Song365.cc</summary>
+            <summary lang="en">Allows access to Song365.cc</summary>
+            <description lang="de">Zugriff auf tausende von MP3 Dateien
+                - Suche nach Künstler
+                - Suche nach Album
+                - Suche nach Titel in Album
+                - Suche nach Titel
+                - Künstler von A-Z
+                - Populäre Künstler
+                - Populäre Alben
+                - Populäre Titel
+            </description>
+            <description lang="en">Access to thousands of MP3 files
+                - Search for artists
+                - Search for albums
+                - Search for titles in albums
+                - Search for titles
+                - Artists from A-Z
+                - Populare artists
+                - Populare albums
+                - Populare title
+            </description>
+            <website>https://pikarus0.github.io/Song365/</website>
+        </extension>
+    </addon>
 </addons>
